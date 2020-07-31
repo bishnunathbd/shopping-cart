@@ -75,6 +75,7 @@
    </section>
 
    <script>
+      // case increase btn event handler
       document.getElementById('case-increase').addEventListener('click', function () {
          const caseInput = document.getElementById('case-count');
          const caseCount = parseInt(caseInput.value);
@@ -84,6 +85,7 @@
          document.getElementById('case-total').innerText = '$' + caseTotal;
       })
 
+      // case decrease btn event handler
       document.getElementById('case-decrease').addEventListener('click', function () {
          const caseInput = document.getElementById('case-count');
          const caseCount = parseInt(caseInput.value);
